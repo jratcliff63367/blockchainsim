@@ -1,0 +1,8 @@
+/README.bak
+/*.bak
+/*.pdb
+/*.ilk
+/compiler/VC12WIN64/blockchainsim.v12.suo
+/blockchainsimDEBUG.exe
+/compiler/vc14win64/.vs/blockchainsim/v14/*.suo
+/compiler/vc14win64/*.sdf

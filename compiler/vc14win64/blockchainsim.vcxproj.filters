@@ -5,7 +5,73 @@
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>
+		<ClInclude Include="..\..\gauss.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NsInParser.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NsKeyValueIni.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NsRand.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NsString.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NsStringUtils.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NsUserAllocated.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NvAssert.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NvCTypes.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NvIntrinsics.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NvMath.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\NvPreprocessor.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\SimulationSettings.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\UnitConversion.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
 		<ClCompile Include="..\..\blockchainsim.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\gauss.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\NsInParser.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\NsKeyValueIni.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\NsRand.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\NsString.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\NsStringUtils.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\SimulationSettings.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\UnitConversion.cpp">
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
 	</ItemGroup>

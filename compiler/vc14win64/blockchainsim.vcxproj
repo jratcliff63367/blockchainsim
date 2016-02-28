@@ -108,7 +108,51 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\gauss.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NsInParser.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NsKeyValueIni.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NsRand.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NsString.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NsStringUtils.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NsUserAllocated.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NvAssert.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NvCTypes.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NvIntrinsics.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NvMath.h">
+    </ClInclude>
+    <ClInclude Include="..\..\NvPreprocessor.h">
+    </ClInclude>
+    <ClInclude Include="..\..\SimulationSettings.h">
+    </ClInclude>
+    <ClInclude Include="..\..\UnitConversion.h">
+    </ClInclude>
     <ClCompile Include="..\..\blockchainsim.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\gauss.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\NsInParser.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\NsKeyValueIni.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\NsRand.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\NsString.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\NsStringUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\SimulationSettings.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\UnitConversion.cpp">
     </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
