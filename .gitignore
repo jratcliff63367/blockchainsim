@@ -6,3 +6,5 @@
 /blockchainsimDEBUG.exe
 /compiler/vc14win64/.vs/blockchainsim/v14/*.suo
 /compiler/vc14win64/*.sdf
+/compiler/vc14win64/blockchainsim.vcxproj.user
+/blockchainsim.txt

@@ -130,6 +130,14 @@ public:
       SetGaussFlag(GF_STDEV);
   }
 
+  void applyScale(float scale)
+  {
+      mMean *= scale;
+      mStandardDeviation *= scale;
+      mMin *= scale;
+      mMax *= scale;
+  }
+
 private:
   int32_t   mFlags;
   float mMean;               // gaussian number has mean and

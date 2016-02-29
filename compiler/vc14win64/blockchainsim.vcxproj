@@ -108,7 +108,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\BlockChain.h">
+    </ClInclude>
     <ClInclude Include="..\..\gauss.h">
+    </ClInclude>
+    <ClInclude Include="..\..\logging.h">
     </ClInclude>
     <ClInclude Include="..\..\NsInParser.h">
     </ClInclude>
@@ -124,8 +128,6 @@
     </ClInclude>
     <ClInclude Include="..\..\NvAssert.h">
     </ClInclude>
-    <ClInclude Include="..\..\NvCTypes.h">
-    </ClInclude>
     <ClInclude Include="..\..\NvIntrinsics.h">
     </ClInclude>
     <ClInclude Include="..\..\NvMath.h">
@@ -136,9 +138,13 @@
     </ClInclude>
     <ClInclude Include="..\..\UnitConversion.h">
     </ClInclude>
+    <ClCompile Include="..\..\BlockChain.cpp">
+    </ClCompile>
     <ClCompile Include="..\..\blockchainsim.cpp">
     </ClCompile>
     <ClCompile Include="..\..\gauss.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\logging.cpp">
     </ClCompile>
     <ClCompile Include="..\..\NsInParser.cpp">
     </ClCompile>

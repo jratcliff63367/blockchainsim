@@ -5,7 +5,13 @@
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>
+		<ClInclude Include="..\..\BlockChain.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\gauss.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\logging.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\NsInParser.h">
@@ -29,9 +35,6 @@
 		<ClInclude Include="..\..\NvAssert.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
-		<ClInclude Include="..\..\NvCTypes.h">
-			<Filter>blockchainsim</Filter>
-		</ClInclude>
 		<ClInclude Include="..\..\NvIntrinsics.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
@@ -47,10 +50,16 @@
 		<ClInclude Include="..\..\UnitConversion.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
+		<ClCompile Include="..\..\BlockChain.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\blockchainsim.cpp">
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\gauss.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\logging.cpp">
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\NsInParser.cpp">

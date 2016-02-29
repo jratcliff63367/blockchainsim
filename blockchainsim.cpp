@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "SimulationSettings.h"
+#include "BlockChain.h"
+
+using namespace blockchainsim;
+
 int main(int argc,const char **argv)
 {
 	if ( argc == 1 )
@@ -10,7 +15,21 @@ int main(int argc,const char **argv)
 	else
 	{
 		const char *simFile = argv[1];
-		printf("Running simulation: %s\n", simFile);
+        SimulationSettings *ss = SimulationSettings::create(simFile);
+        if (ss)
+        {
+            BlockChain *b = BlockChain::create(*ss);
+            if (b)
+            {
+                bool running = true;
+                while (running)
+                {
+                    running = b->pump();
+                }
+                b->release();
+            }
+            ss->release();
+        }
 	}
 	return 0;
 }
