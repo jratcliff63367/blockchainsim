@@ -114,6 +114,8 @@
     </ClInclude>
     <ClInclude Include="..\..\logging.h">
     </ClInclude>
+    <ClInclude Include="..\..\MemPool.h">
+    </ClInclude>
     <ClInclude Include="..\..\NsInParser.h">
     </ClInclude>
     <ClInclude Include="..\..\NsKeyValueIni.h">
@@ -134,7 +136,11 @@
     </ClInclude>
     <ClInclude Include="..\..\NvPreprocessor.h">
     </ClInclude>
+    <ClInclude Include="..\..\Population.h">
+    </ClInclude>
     <ClInclude Include="..\..\SimulationSettings.h">
+    </ClInclude>
+    <ClInclude Include="..\..\Transaction.h">
     </ClInclude>
     <ClInclude Include="..\..\UnitConversion.h">
     </ClInclude>
@@ -146,6 +152,8 @@
     </ClCompile>
     <ClCompile Include="..\..\logging.cpp">
     </ClCompile>
+    <ClCompile Include="..\..\MemPool.cpp">
+    </ClCompile>
     <ClCompile Include="..\..\NsInParser.cpp">
     </ClCompile>
     <ClCompile Include="..\..\NsKeyValueIni.cpp">
@@ -155,6 +163,8 @@
     <ClCompile Include="..\..\NsString.cpp">
     </ClCompile>
     <ClCompile Include="..\..\NsStringUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\Population.cpp">
     </ClCompile>
     <ClCompile Include="..\..\SimulationSettings.cpp">
     </ClCompile>

@@ -14,6 +14,9 @@
 		<ClInclude Include="..\..\logging.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
+		<ClInclude Include="..\..\MemPool.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\NsInParser.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
@@ -44,7 +47,13 @@
 		<ClInclude Include="..\..\NvPreprocessor.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
+		<ClInclude Include="..\..\Population.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\SimulationSettings.h">
+			<Filter>blockchainsim</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\Transaction.h">
 			<Filter>blockchainsim</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\UnitConversion.h">
@@ -62,6 +71,9 @@
 		<ClCompile Include="..\..\logging.cpp">
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\MemPool.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\NsInParser.cpp">
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
@@ -75,6 +87,9 @@
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\NsStringUtils.cpp">
+			<Filter>blockchainsim</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\Population.cpp">
 			<Filter>blockchainsim</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\SimulationSettings.cpp">
